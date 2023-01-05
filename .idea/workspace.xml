@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c8410401-45c2-45c0-b095-47faca0e4207" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-consumer/src/main/java/com/sijinghua/consumer/example/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-consumer/src/main/java/com/sijinghua/consumer/example/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/java/com/sijinghua/easyrpc/example/provider/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/java/com/sijinghua/easyrpc/example/provider/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/java/com/sijinghua/easyrpc/example/provider/api/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/annotation/ServiceExpose.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/annotation/ServiceReference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/client/ClientProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/client/discovery/NacosServiceDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/client/discovery/ServiceDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/client/discovery/ZookeeperServiceDiscovery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/client/network/ClientChannelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/client/network/NettyRpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/client/network/RpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/common/ServiceInterfaceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/config/AutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/exception/RpcException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/listener/DefaultRpcListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/property/RpcProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/serialization/DefaultMessageProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/serialization/MessageProtocol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/serialization/RpcRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/serialization/RpcResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/server/network/NettyRpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/server/network/RequestHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/server/network/RpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/server/registry/DefaultServiceRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/server/registry/NacosServiceRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/server/registry/ServiceRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/server/registry/ZookeeperServiceRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Interface" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IOrU28rAv74YcPvXQnKt0hkoji" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;19&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;a674d08097981022fe672370a066da32&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="easy-rpc-example-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sijinghua.consumer.example.ConsumerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sijinghua.consumer.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" />
+      <option name="DEBUG_MODE" value="true" />
+      <module name="easy-rpc-example-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sijinghua.easyrpc.example.provider.ProviderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sijinghua.easyrpc.example.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="Spring Boot.ProviderApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8410401-45c2-45c0-b095-47faca0e4207" name="Changes" comment="" />
+      <created>1670063482367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670063482367</updated>
+      <workItem from="1670063483507" duration="8886000" />
+      <workItem from="1670383702344" duration="21966000" />
+      <workItem from="1670691600817" duration="596000" />
+      <workItem from="1670693757403" duration="53683000" />
+      <workItem from="1672378900190" duration="13760000" />
+      <workItem from="1672479007396" duration="8089000" />
+      <workItem from="1672542144197" duration="7837000" />
+      <workItem from="1672573951321" duration="1968000" />
+      <workItem from="1672639436924" duration="3991000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
