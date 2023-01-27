@@ -21,7 +21,7 @@
 |&emsp;   |&emsp;   &emsp;    |-- test<br>
 |&emsp;   |&emsp;   &emsp;    &emsp;    |-- java<br>
 |&emsp;   |-- pom.xml<br>
-|── easy-rpc-spring-boot-starter    // core code of easy-rpc<br>
+|-- easy-rpc-spring-boot-starter    // core code of easy-rpc<br>
 |&emsp;   |-- pom.xml<br>
 |&emsp;   |-- src<br>
 |&emsp;   &emsp;    |-- main<br>
