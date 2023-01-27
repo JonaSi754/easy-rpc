@@ -31,7 +31,7 @@ public class DefaultRpcListener implements ApplicationListener<ContextRefreshedE
 
     private final ClientProxyFactory clientProxyFactory;
 
-    private RpcProperties rpcProperties;
+    private final RpcProperties rpcProperties;
 
     public DefaultRpcListener(ServiceRegistry serviceRegistry, RpcServer rpcServer,
                               ClientProxyFactory clientProxyFactory, RpcProperties rpcProperties) {
@@ -97,6 +97,7 @@ public class DefaultRpcListener implements ApplicationListener<ContextRefreshedE
         try {
             ip = InetAddress.getLocalHost().getHostAddress();
         } catch (UnknownHostException e) {
+            logger.error("Unknown host.", e);
         }
         return ip;
     }

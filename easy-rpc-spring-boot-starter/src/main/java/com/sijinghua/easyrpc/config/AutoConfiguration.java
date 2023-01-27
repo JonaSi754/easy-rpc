@@ -16,15 +16,14 @@ import com.sijinghua.easyrpc.server.registry.DefaultServiceRegistry;
 import com.sijinghua.easyrpc.server.registry.NacosServiceRegistry;
 import com.sijinghua.easyrpc.server.registry.ServiceRegistry;
 import com.sijinghua.easyrpc.server.registry.ZookeeperServiceRegistry;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
+@Slf4j
 public class AutoConfiguration {
-    private static final Logger logger = LoggerFactory.getLogger(AutoConfiguration.class);
 
     // listener
     @Bean
@@ -45,11 +44,12 @@ public class AutoConfiguration {
     @Bean
     public ServiceDiscovery serviceDiscovery(@Autowired RpcProperties rpcProperties) {
         final String register = rpcProperties.getRegister();
-        if ("nacos".equalsIgnoreCase(register)) {
-            logger.info("Nacos discovery active.");
+        String reg = register.replaceAll("=", "");
+        if ("nacos".equalsIgnoreCase(reg)) {
+            log.info("Nacos discovery active.");
             return new NacosServiceDiscovery(rpcProperties().getRegisterAddress());
-        } else if ("zookeeper".equalsIgnoreCase(register)) {
-            logger.info("Zookeeper discovery active.");
+        } else if ("zookeeper".equalsIgnoreCase(reg)) {
+            log.info("Zookeeper discovery active.");
             return new ZookeeperServiceDiscovery(rpcProperties().getRegisterAddress());
         }
         return null;
@@ -66,13 +66,13 @@ public class AutoConfiguration {
         // Choose registry center automatically according to parameters config
         final String register = rpcProperties.getRegister();
         if ("nacos".equalsIgnoreCase(register)) {
-            logger.info("Nacos register active.");
+            log.info("Nacos register active.");
             return new NacosServiceRegistry(rpcProperties.getRegisterAddress());
         } else if ("zookeeper".equalsIgnoreCase(register)) {
-            logger.info("Zookeeper register active.");
+            log.info("Zookeeper register active.");
             return new ZookeeperServiceRegistry(rpcProperties.getRegisterAddress());
         } else {
-            logger.info("Default register active");
+            log.info("Default register active");
             return new DefaultServiceRegistry();
         }
     }
