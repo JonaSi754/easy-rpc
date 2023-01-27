@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8410401-45c2-45c0-b095-47faca0e4207" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-consumer/src/main/java/com/sijinghua/consumer/example/ConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-consumer/src/main/java/com/sijinghua/easyrpc/example/consumer/ConsumerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-consumer/src/main/java/com/sijinghua/consumer/example/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-consumer/src/main/java/com/sijinghua/easyrpc/example/consumer/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/java/com/sijinghua/easyrpc/example/provider/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/java/com/sijinghua/easyrpc/example/provider/HelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/java/com/sijinghua/easyrpc/example/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/java/com/sijinghua/easyrpc/example/provider/ProviderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc-example/easy-rpc-example-provider/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/config/AutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/config/AutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/listener/DefaultRpcListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/listener/DefaultRpcListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/property/RpcProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/easy-rpc-spring-boot-starter/src/main/java/com/sijinghua/easyrpc/property/RpcProperties.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +118,7 @@
       <workItem from="1673669923318" duration="2623000" />
       <workItem from="1673858125961" duration="4662000" />
       <workItem from="1674015099434" duration="1890000" />
-      <workItem from="1674542635595" duration="25506000" />
+      <workItem from="1674542635595" duration="26272000" />
     </task>
     <servers />
   </component>
