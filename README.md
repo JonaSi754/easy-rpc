@@ -2,8 +2,8 @@
 - An easy rpc project, most refered from @CoderLeixiaoshuai
 
 ## Structure of code
-'''
-·
+'''  
+·  
 ├── easy-rpc-example    // an example using rpc<br>
 │   ├── easy-rpc-example-consumer   // consumer simulator<br>
 │   │   ├── pom.xml<br>
